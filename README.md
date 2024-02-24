@@ -146,18 +146,21 @@ Achieving balance is crucial for optimizing model performance. We balanced the d
 To address the imbalance in a dataset, one approach is to oversample the minority class by generating additional instances using the RandomOverSampler technique.
 
 ### Logistic Regression Model Performance (Resampled)
+
 | Metric                   | Value    |
 |--------------------------|----------|
 | Balanced Accuracy Score  | 0.9972   |
-|--------------------------|----------|
-| Confusion Matrix         |          |
-|                          | Predicted|
-|                          |  0  |  1  |
-|--------------------------|------|------|
-| Actual    |  0  | 20006|   0  |
-|           |  1  |  111 | 19895|
-|--------------------------|------|------|
-| Classification Report    |          |
+
+
+#### Confusion Matrix
+
+|      | Predicted | |
+|:----:|:---------:|---:|
+|      |     0     |  1  |
+|   0  |    20006  |  1  |
+|   1  |     111   |19895|
+#### Classification Report
+
 |                          | Precision | Recall | F1-Score | Support |
 |--------------------------|-----------|--------|----------|---------|
 | 0                        |    0.99   |  1.00  |   1.00   |  20006  |
