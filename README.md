@@ -61,8 +61,8 @@ Out of the initial 21 features, we selected 14, including the target variable "c
 | Metric                   | Value   |
 |--------------------------|---------|
 | Balanced Accuracy Score  | 0.7     |
-|--------------------------|---------|
 
+|--------------------------|---------|
 | Confusion Matrix         |         |
 |                          | Predicted |
 |                          |   0   |   1   |
