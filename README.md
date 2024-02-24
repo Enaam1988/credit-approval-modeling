@@ -87,6 +87,20 @@ The logistic regression model's performance reveals that it achieves a high leve
 
 We used Lazy Predict, which automates training and evaluating multiple machine learning models on a dataset, providing quick performance metrics for comparison and selection of the most suitable algorithms. We applied Bagging Classifier and XGB Classifier, yielding the following results:
 #### Bagging Classifier
+| Metric                   | Value    |
+|--------------------------|----------|
+| Balanced Accuracy Score  | 0.98     |
+
+#### Confusion Matrix  
+
+| Confusion Matrix    |       | Predicted |
+|---------------------|-------|-----------|
+|                     | Actual|     0     |     1     |
+|                     |   0   |    24     |     1     |
+|                     |   1   |    0      |   5001    |
+
+
+
 
 |                     | Precision | Recall | F1-Score | Support |
 |---------------------|-----------|--------|----------|---------|
