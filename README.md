@@ -65,11 +65,13 @@ Out of the initial 21 features, we selected 14, including the target variable "c
 
 #### Confusion Matrix  
 
-| Actual|          | Predicted |
-| --- | --- |
-|                  |  0        |  1        |
-| 0                |  10       |  15       |
-| 1                |  0        |  5001     |
+|       | Predicted |
+|-------|-----------|
+|       |    0      |    1      |
+|-------|-----------|
+|   0   |    24     |    1      |
+|   1   |    0      |   5001    |
+
 
 ##### Classification Report 
 
