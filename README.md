@@ -62,6 +62,7 @@ Out of the initial 21 features, we selected 14, including the target variable "c
 |--------------------------|---------|
 | Balanced Accuracy Score  | 0.7     |
 |--------------------------|---------|
+
 | Confusion Matrix         |         |
 |                          | Predicted |
 |                          |   0   |   1   |
@@ -70,6 +71,7 @@ Out of the initial 21 features, we selected 14, including the target variable "c
 | Not Approved (0)         |  10   |  15   |
 | Approved (1)             |   0   | 5001  |
 |--------------------------|-------|-------|
+
 | Classification Report    |         |
 |                          | Precision | Recall | F1-Score | Support |
 |--------------------------|-----------|--------|----------|---------|
