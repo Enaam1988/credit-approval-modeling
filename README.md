@@ -68,7 +68,7 @@ Out of the initial 21 features, we selected 14, including the target variable "c
  |      | Predicted | |
 |:----:|:---------:|---:|
 |      |     0     |  1 |
-|   0  |     24    |  1 |
+|   0  |     10    |  15|
 |   1  |     0     |5001|
   
 
@@ -93,13 +93,14 @@ We used Lazy Predict, which automates training and evaluating multiple machine l
 | Balanced Accuracy Score  | 0.98     |
 
 #### Confusion Matrix  
-|       | Predicted |
-|-------|-----------|
-|       |    0      |    1      |
-|-------|-----------|
-|   0   |    24     |    1      |
-|   1   |    0      |   5001    |
 
+|      | Predicted | |
+|:----:|:---------:|---:|
+|      |     0     |  1 |
+|   0  |     23    |  2 |
+|   1  |     0     |5001|
+  
+##### Classification Report 
 
 |                     | Precision | Recall | F1-Score | Support |
 |---------------------|-----------|--------|----------|---------|
@@ -113,6 +114,20 @@ We used Lazy Predict, which automates training and evaluating multiple machine l
 The Bagging Classifier demonstrates outstanding performance with a balanced accuracy score of 0.98. It effectively identifies both approved and unapproved credit card applications, as indicated by the high precision, recall, and F1-score values. The confusion matrix shows only one misclassified instance of a not approved application out of 25, while correctly classifying all 5001 approved applications. This exceptional performance underscores the efficacy of the Bagging Classifier in predicting credit card approval outcomes.
 
 **XGB Classifier**
+
+| Metric                   | Value    |
+|--------------------------|----------|
+| Balanced Accuracy Score  | 0.96     |
+
+#### Confusion Matrix
+
+|      | Predicted | |
+|:----:|:---------:|---:|
+|      |     0     |  1 |
+|   0  |     24    |  1 |
+|   1  |     0     |5001|
+  
+##### Classification Report 
 
 |                     | Precision | Recall | F1-Score | Support |
 |---------------------|-----------|--------|----------|---------|
