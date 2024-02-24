@@ -61,21 +61,21 @@ Out of the initial 21 features, we selected 14, including the target variable "c
 | Metric                   | Value    |
 |--------------------------|----------|
 | Balanced Accuracy Score  | 0.7      |
-|--------------------------|----------|
+
 | Confusion Matrix         |          |
 |                          | Predicted|
 |                          |  0  |  1  |
 |--------------------------|------|------|
 | Actual    |  0  | 10   |  15  |
 |           |  1  |  0   | 5001 |
-|--------------------------|------|------|
+
 | Classification Report    |          |
 |                          | Precision | Recall | F1-Score | Support |
 |--------------------------|-----------|--------|----------|---------|
 | Not Approved (0)         |    1.00   |  0.40  |   0.57   |    25   |
 | Approved (1)             |    1.00   |  1.00  |   1.00   |  5001   |
 |--------------------------|-----------|--------|----------|---------|
-| Accuracy                 |                     |          |   1.00   |   5026  |
+| Accuracy                 |                    |   1.00   |   5026  |
 | Macro Avg                |   1.00    |  0.70  |   0.78   |   5026  |
 | Weighted Avg             |   1.00    |  1.00  |   1.00   |   5026  |
 
@@ -97,7 +97,8 @@ We used Lazy Predict, which automates training and evaluating multiple machine l
   
 The Bagging Classifier demonstrates outstanding performance with a balanced accuracy score of 0.98. It effectively identifies both approved and unapproved credit card applications, as indicated by the high precision, recall, and F1-score values. The confusion matrix shows only one misclassified instance of a not approved application out of 25, while correctly classifying all 5001 approved applications. This exceptional performance underscores the efficacy of the Bagging Classifier in predicting credit card approval outcomes.
 
-- **XGB Classifier**
+**XGB Classifier**
+
 |                     | Precision | Recall | F1-Score | Support |
 |---------------------|-----------|--------|----------|---------|
 | **0 (Not Approved)**|    1.00   |  0.92  |   0.96   |    25   |
