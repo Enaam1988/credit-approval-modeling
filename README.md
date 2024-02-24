@@ -63,10 +63,11 @@ Out of the initial 21 features, we selected 14, including the target variable "c
 |--------------------------|----------|
 | Balanced Accuracy Score  | 0.7      |
 
+#### Confusion Matrix
+
  |      | Predicted | |
 |:----:|:---------:|---:|
 |      |     0     |  1 |
-| ---- | --------- | -- |
 |   0  |     24    |  1 |
 |   1  |     0     |5001|
   
