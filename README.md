@@ -61,26 +61,25 @@ Out of the initial 21 features, we selected 14, including the target variable "c
 | Metric                   | Value   |
 |--------------------------|---------|
 | Balanced Accuracy Score  | 0.7     |
-
-
- Confusion Matrix                  
-                           |   Predicted    |    
-| Confusion Matrix         |   0   |   1   |
+|--------------------------|---------|
+| Confusion Matrix         |         |
+|                          | Predicted |
+|                          |   0   |   1   |
 |--------------------------|-------|-------|
 | Actual                   |       |       |
-| Not Approved (0)         |  10   |  15   |
-| Approved (1)             |   0   | 5001  |
+| Not Approved (0)         |  10   |   0   |
+| Approved (1)             |   0   |   0   |
 |--------------------------|-------|-------|
-
 | Classification Report    |         |
 |                          | Precision | Recall | F1-Score | Support |
 |--------------------------|-----------|--------|----------|---------|
-| Not Approved (0)         |    1.00   |  0.40  |   0.57   |    25   |
-| Approved (1)             |    1.00   |  1.00  |   1.00   |  5001   |
+| Not Approved (0)         |    1.00   |  1.00  |   1.00   |    10   |
+| Approved (1)             |    1.00   |  0.00  |   0.00   |     0   |
 |--------------------------|-----------|--------|----------|---------|
-| Accuracy                 |                     |          |   1.00   |   5026  |
-| Macro Avg                |     1.00            |  0.70    |   0.78   |   5026  |
-| Weighted Avg             |     1.00            |  1.00    |   1.00   |   5026  |
+| Accuracy                 |                     |          |   1.00   |   10    |
+| Macro Avg                |     1.00            |  0.50    |   0.50   |   10    |
+| Weighted Avg             |     1.00            |  1.00    |   1.00   |   10    |
+
 
 The logistic regression model's performance reveals that it achieves a high level of accuracy and precision for approved credit card applications. However, it demonstrates a significant limitation in correctly identifying unapproved applications. Specifically, the model's recall rate for unapproved applications is relatively low, indicating that it often fails to detect these instances. This deficiency is highlighted by the balanced accuracy score, which, while reasonably high overall, suggests room for improvement, particularly in capturing true negatives. Overall, while the model is effective in predicting approved applications, it requires enhancement to better identify and classify unapproved ones.
 ### Lazy Predict
