@@ -201,3 +201,13 @@ The Bagging Classifier demonstrates impeccable performance on the resampled trai
 **Interpretability:** Enhance the interpretability of the models by providing explanations for their predictions. This transparency can foster trust among stakeholders and regulatory bodies and facilitate compliance with industry regulations.
 
 **Customer Segmentation:** Utilize clustering techniques to segment customers based on their credit profiles and preferences. This segmentation can enable targeted marketing strategies and personalized product offerings, ultimately improving customer satisfaction and retention.
+
+## Contact
+
+If you have any questions or need further information, please contact us:
+
+- Enaam Hamad: [emoemo1988@yahoo.com](mailto:emoemo1988@yahoo.com)
+- Bisma Jalili: [bismajalili@gmail.com](mailto:bismajalili@gmail.com)
+- Shaza Abdalsalam: [shazaaali94@gmail.com](mailto:shazaaali94@gmail.com)
+- Zainab Arif: [zainab.arif1998@gmail.com](mailto:zainab.arif1998@gmail.com)
+
