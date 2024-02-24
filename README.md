@@ -159,6 +159,7 @@ To address the imbalance in a dataset, one approach is to oversample the minorit
 |      |     0     |  1  |
 |   0  |    20006  |  1  |
 |   1  |     111   |19895|
+
 #### Classification Report
 
 |                     | Precision | Recall | F1-Score | Support |
@@ -168,3 +169,10 @@ To address the imbalance in a dataset, one approach is to oversample the minorit
 | Accuracy            |           |        |   1.00   |  40012  |
 | Macro Avg           |    1.00   |  1.00  |   1.00   |  40012  |
 | Weighted Avg        |    1.00   |  1.00  |   1.00   |  40012  |
+
+- The balanced accuracy score is exceptionally high, indicating that the model performs well in predicting both classes, considering the dataset is balanced after resampling.
+- The confusion matrix shows that out of 20,117 instances of the negative class (0), the model correctly predicted 20,006 instances, and out of 19,906 instances of the positive class (1), the model correctly predicted 19,895 instances. There are very few misclassifications.
+- The classification report further confirms the excellent performance of the model, with high precision, recall, and F1-score values for both classes. The accuracy, macro avg, and weighted avg scores are all 1.00, indicating perfect classification performance.
+
+Overall, the model exhibits outstanding performance on the resampled dataset, with high accuracy and precision in predicting credit card approval outcomes for both approved and not approved applications.
+
