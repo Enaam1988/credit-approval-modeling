@@ -58,6 +58,7 @@ Out of the initial 21 features, we selected 14, including the target variable "c
 
 ### Modeling and Classification Performance
 #### logistic regression model
+
 | Metric                   | Value    |
 |--------------------------|----------|
 | Balanced Accuracy Score  | 0.7      |
@@ -67,12 +68,12 @@ Out of the initial 21 features, we selected 14, including the target variable "c
 | Actual|          | Predicted |
 |------------------|-----------|-----------|
 |                  |  0        |  1        |
-|------------------|-----------|-----------|
 | 0                |  10       |  15       |
 | 1                |  0        |  5001     |
 
+##### Classification Report 
 
-| Classification Report   | Precision | Recall | F1-Score | Support |
+|                         | Precision | Recall | F1-Score | Support |
 |-------------------------|-----------|--------|----------|---------|
 | Not Approved (0)        |    1.00   |  0.40  |   0.57   |    25   |
 | Approved (1)            |    1.00   |  1.00  |   1.00   |  5001   |
