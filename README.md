@@ -64,9 +64,8 @@ Out of the initial 21 features, we selected 14, including the target variable "c
 
 #### Confusion Matrix  
 
-| Confusion Matrix |           | Predicted |
+| Actual|          | Predicted |
 |------------------|-----------|-----------|
-| Actual           |           |           |
 |                  |  0        |  1        |
 |------------------|-----------|-----------|
 | 0                |  10       |  15       |
