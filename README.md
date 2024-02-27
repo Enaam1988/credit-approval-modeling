@@ -48,6 +48,8 @@ Apache Spark was utilized for distributed data processing tasks. The SparkSessio
 
 Before modeling, we conducted EDA to understand the dataset. Notably, we observed an imbalance between approved and unapproved applications, prompting further investigation prior to data cleaning.
 
+### Feature Descriptions ###
+
 | Column Name          | Description                                                      |
 |----------------------|------------------------------------------------------------------|
 | Applicant_ID         | Unique identifier for each applicant                              |
