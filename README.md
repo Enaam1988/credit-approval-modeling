@@ -44,7 +44,7 @@ Apache Spark was utilized for distributed data processing tasks. The SparkSessio
 
 ## Project Overview
 
-### Exploratory Data Analysis (EDA)
+### Exploratory Data Analysis (EDA) and Imbalance Observation
 
 Before modeling, we conducted EDA to understand the dataset. Notably, we observed an imbalance between approved and unapproved applications, prompting further investigation prior to data cleaning.
 
