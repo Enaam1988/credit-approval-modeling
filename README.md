@@ -36,8 +36,8 @@ Apache Spark was utilized for distributed data processing tasks. The SparkSessio
 
 ## Methodology
 
-1. **Data Preparation:** Preprocess the dataset, encode categorical variables.
-2. **Exploratory Data Analysis (EDA):** Analyze the distribution of features, explore correlations, and identify patterns.
+1. **Exploratory Data Analysis (EDA):** Analyze the distribution of features, explore correlations, and identify patterns.
+2. **Data Preparation:** Preprocess the dataset, encode categorical variables.
 3. **Modeling:** Train machine learning models to predict credit card approval outcomes.
 4. **Evaluation:** Assess model performance and identify the most influential factors.
 5. **Insights and Recommendations:** Extract actionable insights and provide recommendations for credit card issuers.
@@ -48,6 +48,31 @@ Apache Spark was utilized for distributed data processing tasks. The SparkSessio
 
 Before modeling, we conducted EDA to understand the dataset. Notably, we observed an imbalance between approved and unapproved applications, prompting further investigation prior to data cleaning.
 
+| Column Name          | Description                                                      |
+|----------------------|------------------------------------------------------------------|
+| Applicant_ID         | Unique identifier for each applicant                              |
+| Applicant_Gender     | Gender of the applicant (M = Male, F = Female)                    |
+| Owned_Car            | Indicates if the applicant owns a car (1 = Yes/Have; 0 = No/Don't Have) |
+| Owned_Realty         | Indicates if the applicant owns real estate (1 = Yes/Have; 0 = No/Don't Have) |
+| Total_Children       | Total number of children the applicant has                        |
+| Total_Income         | Total income of the applicant                                     |
+| Income_Type          | Type of income (Working, Commercial associate, Other)             |
+| Education_Type       | Level of education of the applicant (e.g., High School, Bachelor) |
+| Family_Status        | Marital status or family status of the applicant                  |
+| Housing_Type         | Type of housing the applicant resides in (e.g., House/Apartment)  |
+| Owned_Mobile_Phone   | Indicates if the applicant owns a mobile phone (1 = Yes/0 = No)    |
+| Owned_Work_Phone     | Indicates if the applicant owns a work phone (1 = Yes/0 = No)      |
+| Owned_Phone          | Indicates if the applicant owns a phone (1 = Yes/0 = No)           |
+| Owned_Email          | Indicates if the applicant owns an email address (1 = Yes/0 = No)  |
+| Job_Title            | Title or position of the applicant's job                          |
+| Total_Family_Members | Total number of family members in the applicant's household       |
+| Applicant_Age        | Age of the applicant                                              |
+| Years_of_Working     | Number of years the applicant has been working                    |
+| Total_Bad_Debt       | Total amount of bad debt accumulated by the applicant             |
+| Total_Good_Debt      | Total amount of good debt accumulated by the applicant            |
+| Status               | Approval status of the credit card application (0: Not Approved, 1: Approved) |
+
+ 
 ### Data Engineering Features
 
 We incorporated `sklearn.preprocessing` to import OneHotEncoder for categorical features and StandardScaler for numerical features like number of children, income, and age. This preprocessing facilitated data transformation, providing valuable insights into applicant demographics and financial profiles, which guided our modeling approach.
